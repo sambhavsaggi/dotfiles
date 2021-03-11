@@ -14,3 +14,6 @@ export PATH=/var/lib/snapd/snap/bin:$PATH
 export PATH=$HOME/go/bin:$PATH
 export PATH=$HOME/.cargo/bin:$PATH
 export GPG_TTY=$(tty)
+export GTK_IM_MODULE=xim
+export XMODIFIERS=@im=ibus
+export QT_IM_MODULE=xim
